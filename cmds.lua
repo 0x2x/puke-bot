@@ -50,6 +50,16 @@ Last.fm:
   nowplaying[np, currentlyplaying, song, fm] (username) @ View nowplaying songs for user
    
 Variables:
+  @Variables:
+      "{user}" @ The users name & discriminator
+      "{user.id}" @ The users ID
+      "{user.mention}" @ Mention the user
+      "{user.tag}" @ The users discriminator
+      "{user.name}" @ The users name
+      "{user.avatar}" @ The users avatar
+      "{guild.name}" @ The servers name
+      "{guild.id}" @ The servers id
+      "{guild.owner_id}" @ The servers owner id
   @Lastfm Variables:
       "{user.avatar}" @ Display users last.fm pfp or discord pfp
       "{user.plays}" @ Display user plays
@@ -65,6 +75,20 @@ Variables:
       "{proper(global(album.plays))}" @ Display proper counting for globally album plays
       "{proper(album.plays)}" @ Display proper counting for album plays
       "{track.name}" @ Display track name
+      "{upper(track.name)}" @ Display track name in upper case
+      "{lower(track.name)}" @ Display track name in lower case
+      "{listening(track.name)}" @ Display "🎧" if your currently listening to the song
+      "{global(track.plays)}" @ Display global track plays
+      "{proper(global(track.plays)}" @ Display global track plays in proper formatting
+      "{proper(track.plays)}" @ Display your personal track plays in proper format
+      "{track.plays}" @ Display your personal track plays not in proper format
+      "{artist.name}" @ Display artist name
+      "{upper(artist.name)}" @ Display artist name in upper case
+      "{lower(artist.name)}" @ Display artist name in lower case
+      "{artist.plays}" @ Display artist plays in proper format
+      "{global(artist.plays}" @ Display artist plays in proper format
+      "{artist.url}" @ Display artist url
+ 
     
     
   
