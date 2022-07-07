@@ -80,6 +80,7 @@ Variables:
       "{proper(global(album.plays))}" @ Display proper counting for globally album plays
       "{proper(album.plays)}" @ Display proper counting for album plays
       "{track.name}" @ Display track name
+      "{track.url}" @ Display track url
       "{upper(track.name)}" @ Display track name in upper case
       "{lower(track.name)}" @ Display track name in lower case
       "{listening(track.name)}" @ Display "🎧" if your currently listening to the song
