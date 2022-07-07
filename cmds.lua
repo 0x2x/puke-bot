@@ -25,7 +25,12 @@ Servers:
   tag[t] rename <old tag> <new tag> @ Change the name of the tag
   tag[t] edit <tag> <new value> @ Edits the current tag value to something else
   tag[t] author <tag> @ Check the authors tags
-
+  
+  'prefix'
+  prefix @ Shows all the current prefixes in server
+  prefix set <prefix> @ Replaces the default prefix if the default prefix is already removed it would add it on
+  prefix remove <prefix> @ Remove any of the current prefixes (excluding default)
+  prefix list @ List all the prefixes in server too
 Settings:
   settings usereskin <"on" or "off"> @ Turn off or on user reskins inside the server.
   settings restorerole <"on" or "off"> @ Turn on or off restore roles. When someone leaves and joins back he gets his roles back
