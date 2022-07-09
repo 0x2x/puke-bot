@@ -99,4 +99,5 @@ Variables:
 Events:
   @Social Media:
     puke <pinterest_url> @ Get video, gif, image details. I am still trying to find the best way to sort this so yeah. 
+    puke <tiktok_url> @ Get tiktok post (sometimes doesnt work)
   
