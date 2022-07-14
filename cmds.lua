@@ -10,6 +10,7 @@ Fun:
   randomcolor @ Generate a random hex color
   roblox <username> @ Search roblox for username
   rockpaperscissors[rps] <choice> @ Choose between rock, paper, scissors and try to win
+  reactionhistory[rh] <messagelink> @ Check reactions and history for reactions on a specific message #[clears every 24 hours]
   
  
 Servers:
