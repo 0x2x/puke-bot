@@ -1,4 +1,17 @@
 # I am still working on this
+
+Fun:
+  steal (messagelink) @ Steal the most recent emoji or anything from message link
+  uwu <text> @ Make you talk like an e-girl
+  tiktok[tt] <username> @ Check userinformation for tiktok
+  enlarge[emoji] <emoji or emote> @ Enlarge the emoji by size
+  hex <url> @ View the dominant hex color of an image
+  color (hex, member, role) @ View the hex color of either one of those
+  randomcolor @ Generate a random hex color
+  roblox <username> @ Search roblox for username
+  rockpaperscissors[rps] <choice> @ Choose between rock, paper, scissors and try to win
+  
+ 
 Servers:
   'autoreactions'
   reaction[rt] add :emoji: <text> (optional: --strict on) @ Reacts to message. If you have straight on then it must exactly be that text
@@ -31,7 +44,7 @@ Servers:
   prefix set <prefix> @ Replaces the default prefix if the default prefix is already removed it would add it on
   prefix remove <prefix> @ Remove any of the current prefixes (excluding default)
   prefix list @ List all the prefixes in server too
-      
+  
 Settings:
   settings userreskin <"on" or "off"> @ Turn off or on user reskins inside the server.
   settings restorerole <"on" or "off"> @ Turn on or off restore roles. When someone leaves and joins back he gets his roles back
