@@ -46,6 +46,12 @@ Servers:
   prefix remove <prefix> @ Remove any of the current prefixes (excluding default)
   prefix list @ List all the prefixes in server too
   
+  'restrict'
+  restrict add <command> <role> <channel or "all"> @ Add restriction for anyone with that role
+  restrict remove <command> <role> <channel or "all"> or use restrict list and find the ID then restrict remove select:ID @ Remove restriction by parameters or select
+  restrict list @ List all current restrictions
+  restrict clear @ Delete all active restrictions
+   
 Settings:
   settings userreskin <"on" or "off"> @ Turn off or on user reskins inside the server.
   settings restorerole <"on" or "off"> @ Turn on or off restore roles. When someone leaves and joins back he gets his roles back
