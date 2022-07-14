@@ -67,6 +67,7 @@ Last.fm:
   lastfm[lf, lfm] playsalbum[playsa] <album> @ View plays for an album
   lastfm[lf, lfm] playstrack[playst] <track> @ View plays for an track
   lastfm[lf, lfm] topartists[tar, artists] (username) (time frame) @ View topartists for an user within a timeframe
+  lastfm[lf, lfm] color <hex color> @ Set color for all Last.fm embeds
   nowplaying[np, currentlyplaying, song, fm] (username) @ View nowplaying songs for user
    
 Variables:
