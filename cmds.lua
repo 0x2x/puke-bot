@@ -133,13 +133,7 @@ Embed Making:
       When you trigger the reaction make sure to use brackets and colon like {name_parameter_here: hi}$v{more_parts_here: hi && ICON && URL}
                 
     #embed > If you want to trigger the embed creation then you would just add {embed} when you want to start anything before {embed} would just be text
+    #author > Multiple parameters: name && icon URL && external URL
     #title > If you would want to display a title inside the embed you would add "title" to it
     #description > If you want to add an description to your embed make sure to add the parameter "description"
     
-    author
-      > {author: name && icon URL && exterinal URL}
-      # 
-  
-@Example:
-    {embed}$v{title: hello}
-  
