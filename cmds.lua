@@ -47,12 +47,12 @@ Servers:
   prefix list @ List all the prefixes in server too
   
   'restrict'
-  restrict add <command> <role> <channel or "all"> @ Add restriction for anyone with that role
-  restrict remove <command> <role> <channel or "all"> or use restrict list and find the ID then restrict remove select:ID @ Remove restriction by parameters or select
-  restrict list @ List all current restrictions
-  restrict clear @ Delete all active restrictions
-  restrict exclude <role> @ If you want the moderators to be able to run commands with the restricted role
-  restrict exclude list @ List all the restriction exclusion roles
+  restrict[rc, restrictcmd] add <command> <role> <channel or "all"> @ Add restriction for anyone with that role
+  restrict[rc, restrictcmd] remove <command> <role> <channel or "all"> or use restrict list and find the ID then restrict remove select:ID @ Remove restriction by parameters or select
+  restrict[rc, restrictcmd] list @ List all current restrictions
+  restrict[rc, restrictcmd] clear @ Delete all active restrictions
+  restrict[rc, restrictcmd] exclude[allow] <role> @ If you want the moderators to be able to run commands with the restricted role
+  restrict[rc, restrictcmd] exclude[allow] list @ List all the restriction exclusion roles
    
 Settings:
   settings userreskin <"on" or "off"> @ Turn off or on user reskins inside the server.
