@@ -124,4 +124,22 @@ Events:
   @Social Media:
     puke <pinterest_url> @ Get video, gif, image details. I am still trying to find the best way to sort this so yeah. 
     puke <tiktok_url> @ Get tiktok post (sometimes doesnt work)
+Embed Making:
+  @Parameters:
+    How to:
+      If you would want to trigger the embed creation mechanism then you would simple add "{embed}" to when you want to start the creation.
+      Otherwise it would just be all text. If you want to add different embed attrbutues then make sure to use "$v" for each parameter splitting them otherwise an error may occure.
+      Double parameter section? no worries use "&&" to trigger different embed sections, Only works with author, fields, footer.
+      When you trigger the reaction make sure to use brackets and colon like {name_parameter_here: hi}$v{more_parts_here: hi && ICON && URL}
+                
+    #embed > If you want to trigger the embed creation then you would just add {embed} when you want to start anything before {embed} would just be text
+    #title > If you would want to display a title inside the embed you would add "title" to it
+    #description > If you want to add an description to your embed make sure to add the parameter "description"
+    
+    author
+      > {author: name && icon URL && exterinal URL}
+      # 
+  
+@Example:
+    {embed}$v{title: hello}
   
