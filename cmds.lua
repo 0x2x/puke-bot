@@ -51,6 +51,8 @@ Servers:
   restrict remove <command> <role> <channel or "all"> or use restrict list and find the ID then restrict remove select:ID @ Remove restriction by parameters or select
   restrict list @ List all current restrictions
   restrict clear @ Delete all active restrictions
+  restrict exclude <role> @ If you want the moderators to be able to run commands with the restricted role
+  restrict exlucde list @ List all the restriction exclusion roles
    
 Settings:
   settings userreskin <"on" or "off"> @ Turn off or on user reskins inside the server.
