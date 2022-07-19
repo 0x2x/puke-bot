@@ -77,6 +77,7 @@ Last.fm:
   lastfm[lf, lfm] topartists[tar, artists] (username) (time frame) @ View topartists for an user within a timeframe
   lastfm[lf, lfm] color <hex color> @ Set color for all Last.fm embeds
   lastfm[lf, lfm] customcommand[cc] <word> @ Set custom word to invoke Last.fm nowplaying command
+  lastfm[lf, lfm] globalwhoknows[globalwk, gwk] (artist) @ Look at all the user who listened to that artist
   nowplaying[np, currentlyplaying, song, fm] (username) @ View nowplaying songs for user
    
 Variables:
