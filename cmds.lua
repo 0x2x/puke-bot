@@ -91,10 +91,16 @@ Last.fm:
   lastfm[lf, lfm] globalwktrack[globalwkt, gwkt] (artist - album) @ Look at all the user who listened to that track
     
   nowplaying[np, currentlyplaying, song, fm] (username) @ View nowplaying songs for user
+          
 Moderation:
   mute <member> (reason) @ Mute member in channel
   mute all <member> (reason) @ Mute member in all channels
+  unmute <member> (reason) @ Unmute muted member inside of channel
+  unmute all <member> (reason) @ Unmute muted member inside of all channels
   jail <member> (time) (reason) @ Jail member inside of server
+  jaillist @ View all jailed members inside of server
+  unjail <member> (reason) @ Unjails member from inside of server
+          
           
 Variables:
   @Variables:
@@ -141,6 +147,7 @@ Events:
   @Social Media:
     puke <pinterest_url> @ Get video, gif, image details. I am still trying to find the best way to sort this so yeah. 
     puke <tiktok_url> @ Get tiktok post (sometimes doesnt work)
+              
 Embed Making:
   @Parameters:
     How to:
