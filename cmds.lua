@@ -14,6 +14,9 @@ Fun:
   
  
 Servers:
+  'Configuring moderation'
+  setme @ Setup jail, imute, rmute and text mute ised for moderation commands
+
   'autoreactions'
   reaction[rt] add :emoji: <text> (optional: --strict) @ Reacts to message. If you have straight on then it must exactly be that text
   reaction[rt] list @ View all the reactions in server
@@ -55,8 +58,14 @@ Servers:
   restrict[rc, restrictcmd] exclude[allow] list @ List all the restriction exclusion roles
    
 Settings:
+  'welcome'
+  settings welcome add #channel <CODE> (--mentions || --strict_delete <3+>) @ Add welcome channel to that specific code 
+  settings welcome remove #channel @ Removes existing welcome channel
+  settings weclcome list @ List all welcome channels
   settings userreskin <"on" or "off"> @ Turn off or on user reskins inside the server.
   settings restorerole <"on" or "off"> @ Turn on or off restore roles. When someone leaves and joins back he gets his roles back
+  settings jailroles <"on" or "off"> @ Remove users roles when they get jailed
+  settings jailmessage <message or code> @ Sends message to jail channel after getting jailed
   
 Webhooks:
   webhook create <icon> <name> @ Create a new webhook for the bot with specific icon and name
@@ -80,9 +89,13 @@ Last.fm:
   lastfm[lf, lfm] globalwhoknows[globalwk, gwk] (artist) @ Look at all the user who listened to that artist
   lastfm[lf, lfm] globalwkalbum[globalwka, gwka] (artist - album) @ Look at all the user who listened to that album
   lastfm[lf, lfm] globalwktrack[globalwkt, gwkt] (artist - album) @ Look at all the user who listened to that track
-        
+    
   nowplaying[np, currentlyplaying, song, fm] (username) @ View nowplaying songs for user
-   
+Moderation:
+  mute <member> (reason) @ Mute member in channel
+  mute all <member> (reason) @ Mute member in all channels
+  jail <member> (time) (reason) @ Jail member inside of server
+          
 Variables:
   @Variables:
       "{user}" @ The users name & discriminator
