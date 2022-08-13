@@ -89,6 +89,8 @@ Last.fm:
   lastfm[lf, lfm] globalwhoknows[globalwk, gwk] (artist) @ Look at all the user who listened to that artist
   lastfm[lf, lfm] globalwkalbum[globalwka, gwka] (artist - album) @ Look at all the user who listened to that album
   lastfm[lf, lfm] globalwktrack[globalwkt, gwkt] (artist - album) @ Look at all the user who listened to that track
+  lastfm[lf, lfm] playing @ View all nowplayings songs within server
+  lastfm[lf, lfm] taste <member> @ Compare your matching artist plays with the Last.fm user
     
   nowplaying[np, currentlyplaying, song, fm] (username) @ View nowplaying songs for user
           
