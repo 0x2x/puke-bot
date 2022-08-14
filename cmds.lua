@@ -10,8 +10,20 @@ Fun:
   randomcolor @ Generate a random hex color
   roblox <username> @ Search roblox for username
   rockpaperscissors[rps] <choice> @ Choose between rock, paper, scissors and try to win
-  reactionhistory[rh] <messagelink> @ Check reactions and history for reactions on a specific message #[clears every 24 hours]
   
+Misc:
+  serverinfo[si, gi, guildinfo] (server id) @ View server information of either the server you ran the command in or any within the bots
+  roleinfo[ri, rinfo] (role) @ View role information or view the top roles information
+  blacktea (seconds) @ Start blacktea game within seconds 
+  userinfo[ui, whois] (user) @ View users information
+  sicon[servericon, icon, gicon, serverpfp] (invite or bot server) @ View the servers icon
+  banner (user) @ view users banner
+  avatar[av, pfp] (user) @ view users avatar
+  copyembed[stealembed, embedcode] <messagelink> (--text, --json, --exact) @ View embed code to copy and paste
+  editembed[edite] <messagelink> <embecode> @ Edit existing embed created by the bot
+  createembed[ce] <embedcode> (--json) @ Create embeds with either default bots code structle or json
+  reactionhistory[rh] <messagelink> @ Check reactions and history for reactions on a specific message #[clears every 24 hours]
+  pinterest <username> @ view users pinterest account
  
 Servers:
   'Configuring moderation'
