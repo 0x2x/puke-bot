@@ -73,7 +73,7 @@ Settings:
   'welcome'
   settings welcome add #channel <CODE> (--mentions || --strict_delete <3+>) @ Add welcome channel to that specific code 
   settings welcome remove #channel @ Removes existing welcome channel
-  settings weclcome list @ List all welcome channels
+  settings welcome list @ List all welcome channels
   settings userreskin <"on" or "off"> @ Turn off or on user reskins inside the server.
   settings restorerole <"on" or "off"> @ Turn on or off restore roles. When someone leaves and joins back he gets his roles back
   settings jailroles <"on" or "off"> @ Remove users roles when they get jailed
@@ -114,7 +114,8 @@ Moderation:
   jail <member> (time) (reason) @ Jail member inside of server
   jaillist @ View all jailed members inside of server
   unjail <member> (reason) @ Unjails member from inside of server
-          
+  history (member) (case id) @ View members moderation past or a specific ID
+  history remove (member) (case ID or "all") @ Remove an case ID or remove all cases within user 
           
 Variables:
   @Variables:
