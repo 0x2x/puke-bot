@@ -116,7 +116,12 @@ Moderation:
   unjail <member> (reason) @ Unjails member from inside of server
   history (member) (case id) @ View members moderation past or a specific ID
   history remove (member) (case ID or "all") @ Remove an case ID or remove all cases within user 
-          
+  unban <member> (reason) @ Unbans banned member
+  ban <member> (delete history) (reason) @ Bans members and have an option to delete their chat history
+              
+Donator:
+  transparent[tp] (image url) @ Makes image transparent
+              
 Variables:
   @Variables:
       "{user}" @ The users name & discriminator
