@@ -1,4 +1,4 @@
-# I am still working on this
+"This bot is still in public beta, The bot has lots of downtime and bugs!"
 
 Fun:
   steal (messagelink) @ Steal the most recent emoji or anything from message link
