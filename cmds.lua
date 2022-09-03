@@ -47,6 +47,7 @@ Servers:
   autoresponder ignore <channel> @ Ignore specific channels with autoresponder
   autoresponder ignore remove <channel> @ Removed an ignored channel with autoresponder
   autoresponder ignore list @ View all the ignored autoresponder channels
+        
   'tag'
   tag[t] <tag> @ Invoke the tags
   tag[t] add <tag> <value> @ Create a new tag inside server
