@@ -1,4 +1,5 @@
 "This bot is still in public beta, The bot has lots of downtime and bugs!"
+"This is still outdated."
 
 Fun:
   steal (messagelink) @ Steal the most recent emoji or anything from message link
@@ -43,7 +44,9 @@ Servers:
   autoresponder update <trigger>, <new response> @ View all the autoresponders made inside server (same as autoresponder add)
   autoresponder clear @ Clear all autoresponders inside server
   autoresponder remove <trigger> @ Remove autoresponder inside server
-    
+  autoresponder ignore <channel> @ Ignore specific channels with autoresponder
+  autoresponder ignore remove <channel> @ Removed an ignored channel with autoresponder
+  autoresponder ignore list @ View all the ignored autoresponder channels
   'tag'
   tag[t] <tag> @ Invoke the tags
   tag[t] add <tag> <value> @ Create a new tag inside server
