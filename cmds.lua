@@ -82,6 +82,11 @@ Settings:
   settings restorerole <"on" or "off"> @ Turn on or off restore roles. When someone leaves and joins back he gets his roles back
   settings jailroles <"on" or "off"> @ Remove users roles when they get jailed
   settings jailmessage <message or code> @ Sends message to jail channel after getting jailed
+  settings imageonly[imgonly] add #channel @ make that channel image only
+  settings imageonly[imgonly] remove #channel @ remove that channel as image only
+  settings imageonly[imgonly] list #channel @ preview all the image only channels
+  settings invokebanmessage[invokebanmsg] (embed or message) @ Invoke ban message when user is banned
+  settings invokejailmessage[invokejailmsg] (embed or message) @ Invoke ban message when user is banned
   
 Webhooks:
   webhook create <icon> <name> @ Create a new webhook for the bot with specific icon and name
