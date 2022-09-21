@@ -1,6 +1,8 @@
 "This bot is still in public beta, The bot has lots of downtime and bugs!"
 "This is still outdated."
 
+"Currently there are 81 commands on the bot. Idk about here but gang shit"
+
 Fun:
   steal (messagelink) @ Steal the most recent emoji or anything from message link
   uwu <text> @ Make you talk like an e-girl
